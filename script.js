@@ -34,3 +34,8 @@ function guestAddThree () {
     guestScoreCount = guestScoreCount + 3
     guestScore.innerText = guestScoreCount
 }
+
+function clearAllPoints () {
+    homeScore.innerText = ''
+    guestScore.innerText = ''
+}
